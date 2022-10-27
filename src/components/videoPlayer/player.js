@@ -1,13 +1,8 @@
-import ReactPlayer from 'react-player'
-
+import Parent from "../Second/Paretnt"
 const Player=({url})=>{
     return(
         <div>
-            <ReactPlayer
-            url={url}
-            width='100%'
-            height='100vh'
-            />
+           <Parent/>
         </div>
     )
 
