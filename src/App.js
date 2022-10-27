@@ -3,7 +3,7 @@ import  Player  from './components/videoPlayer/player';
 
 function App() {
   return (
-    <Player/>
+    <Player url={'https://www.youtube.com/watch?v=UDVtMYqUAyw'}/>
   );
 }
 

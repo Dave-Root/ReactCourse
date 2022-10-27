@@ -1,10 +1,10 @@
 import ReactPlayer from 'react-player'
 
-const Player=()=>{
+const Player=({url})=>{
     return(
         <div>
             <ReactPlayer
-            url='https://www.youtube.com/watch?v=UDVtMYqUAyw'
+            url={url}
             width='100%'
             height='100vh'
             />
