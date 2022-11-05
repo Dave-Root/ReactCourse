@@ -1,10 +1,15 @@
 import './App.css';
-import  Player  from './components/videoPlayer/player';
+import Increment from "./components/Hooks/Increment";
+import Request from "./components/Http/Request";
+
 
 function App() {
-  return (
-    <Player url={'https://www.youtube.com/watch?v=UDVtMYqUAyw'}/>
-  );
+    return (
+        <div className="content">
+            <Increment/>
+            <Request/>
+        </div>
+    );
 }
 
 export default App;
